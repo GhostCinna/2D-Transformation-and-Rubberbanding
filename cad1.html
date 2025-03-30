@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Transformations</title>
+    <script src="MV.js"></script>
+    <script src="transformations.js" defer></script>
+</head>
+<body>
+    <h2>2D Transformations with Rubberbanding</h2>
+    <canvas id="canvas" width="600" height="600" style="border:1px solid black;"></canvas>
+
+    <div>
+        <label for="shape">Select Shape:</label>
+        <select id="shape">
+            <option value="line">Line</option>
+            <option value="circle">Circle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+            <option value="polygon">Polygon</option>
+        </select>
+    </div>
+
+    <div>
+        <button id="completePolygon">Complete Polygon</button>
+        <button id="clearCanvas">Clear Canvas</button>
+        <button id="translateBtn">Translate</button>
+        <button id="scaleBtn">Scale</button>
+        <button id="rotateBtn">Rotate</button>
+        
+    </div>
+</body>
+</html>
+
+<script src="../Common/initShaders.js"></script>
+<script src="../Common/MVnew.js"></script>
+<script src="cad1.js"></script>
+
+</html>
